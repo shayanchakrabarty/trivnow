@@ -1,0 +1,235 @@
+
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1720px) {
+    .spec-btm-text{
+        font-size:175px;
+    }
+}
+
+@media (max-width: 1600px) {
+    /*Commn*/
+    .spec-btm-text {
+	font-size: 165px;
+    }
+    .cmn_hdr h2{
+        font-size: 42px;
+    }
+    .cmn_p p{
+        font-size:18px;
+    }
+    .cmn_hdr h4{
+        font-size: 18px;
+    }
+    .commn_btn{
+        font-size: 18px;
+    }
+    
+    /*Header*/
+    ul.navbar-nav li {
+	margin-right: 37px;
+    }
+    .logo-sec{
+	width: 195px;
+    }
+    .hdr-btn .sign-up {
+	padding: 15px 21px;
+    }
+    
+    /*Banner*/
+    .banner_description h1 {
+	font-size: 55px;
+	line-height: 70px;
+    }
+    
+    /**/
+    .get-app {
+	padding: 75px 80px 110px 175px;
+    }
+    .get-app:last-child {
+	padding: 75px 0 110px 60px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+	max-width: 1200px;
+    }
+    ul.navbar-nav li a{
+        font-size:14px;
+    }
+    ul.navbar-nav li {
+	margin-right: 32px;
+    }
+    .hdr-btn .login, .hdr-btn .sign-up{
+         font-size:14px;
+    }
+    .hdr-btn .sign-up {
+	padding: 11px 15px;
+    }
+    .banner_description h1 {
+	font-size: 47px;
+	line-height: 72px;
+}
+    .bnr_txt p{
+        font-size: 16.5px;
+    }
+    .banner_description .bnr_txt {
+	margin-top: 10px;
+    }
+    .commn_btn {
+	font-size: 20px;
+	margin-top: 35px;
+	padding: 16px 44px;x;
+    }
+    .banner_description{
+        top:56%;
+    }
+    .cmn_hdr h2{
+        padding-bottom: 15px;
+    }
+    .cmn_p p {
+	font-size: 17px;
+	line-height: 30px;
+    }
+    .player_slider .mid_txt p{
+        font-size:13.5px;
+    }
+    .player_slider .hhh{
+        padding: 15px 18px 15px 50px;
+    }
+    .player_slider .ver_txt h3 {
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+    .player_slider .mid_txt h3 {
+        font-size: 16px;
+    }
+    .spec-btm-text {
+	font-size: 156px;
+    }
+    .spec-txt h3 {
+        font-size: 20px;
+    }
+    .venue-outr .spec-txt ul li strong{
+        font-size: 16px;
+    }
+    .venue-outr .spec-txt ul li b{
+        font-size: 16px;
+    }
+    .venue-outr .spec-txt ul li a {
+         font-size: 16px;
+    }
+    .leran-more.btn.btn-primary{
+        font-size: 14px;
+    }
+    .ques-ans h3{
+        font-size: 18px;
+    }
+    .ques-label{
+        font-size: 15px;
+    }
+    .event-list-outr h4{
+        font-size: 18px;
+    }
+    .event-list-outr p{
+        font-size: 16px;
+    }
+    .event-list ul li {
+        padding: 13px 0 10px 65px;
+    }
+    .event-list-outr h4{
+        margin-bottom: 08px;
+    }
+    .spec-des p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .spec-des p{
+        margin-bottom: 27px;
+    }
+    .commn_btn {
+	font-size: 16px;
+	padding: 16px 40px;
+    }
+    .spec-txt p{
+        margin: 0 0 40px;
+    }
+    .get-app {
+	padding: 75px 80px 110px 120px;
+    }
+}
+
+
+@media (max-width: 1366px) {
+    
+}
+
+@media (max-width: 1280px){
+	
+}
+
+@media (max-width: 1199px) {
+   
+}
+
+@media (max-width:1080px) {
+		
+}
+	
+	
+@media (max-width:1024px) {
+	
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 812px) {
+  
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 767px){
+  
+}
+
+@media(max-width:667px){
+   
+}
+
+@media (max-width:640px){
+
+}
+
+@media (max-width:600px){
+	
+}
+
+@media (max-width:568px){
+  
+}
+
+@media (max-width:484px){
+  
+}
+
+@media (max-width:384px) {
+	
+}
+
+@media (max-width:320px) {	
+	
+}
+
+
+
+
+
+
