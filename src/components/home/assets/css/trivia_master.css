@@ -1,0 +1,103 @@
+
+
+/****************************** Event-sec Sec Start ********************************/
+
+/*poulami 2-5-2019*/
+.event-sec {
+    background: url('../images/event-back.jpg') no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 95px 0;
+}
+.event-pic-outr {
+ display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+     -ms-flex-wrap: wrap;
+           flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.eve-outr {
+    width: 50%;
+    padding: 0 10px;
+}
+.eve-outr:first-child {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.eve-pic {
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.eve-pic img {
+    width: 100%;
+    transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    border-radius: 5px;
+}
+.eve-pic img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.event-list ul li {
+    padding: 25px 0 15px 65px;
+    border-bottom: 1px dashed #422c4d;
+    position: relative;
+}
+.event-list ul li:last-child {
+    padding-bottom: 0;
+}
+.event-list ul li:first-child {
+        padding: 10px 0 15px 65px;
+    }
+.event-list ul li:first-child:after {
+    top:10px;
+}
+.event-list ul li:after {
+    position: absolute;
+    content: '';
+    background: url('../images/icon.png') no-repeat;
+    width: 32px;
+    height: 62px;
+    left:0;
+    top:25px;
+}
+.event-list ul li:last-child {
+    border-bottom: 0;
+}
+.event-list-outr h4 {
+    color:#ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+.event-list-outr p {
+    color:#cbd5da;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+}
+.event-outr .col-md-6:last-child .event-innr {
+    padding-left: 35px;
+} 
+.event-outr .commn_btn {
+   padding: 21px 30px; 
+}
+.event-list-outr p span {
+    color:#fff;
+    font-weight: 500;
+}
+/*05-06-19*/
+.event-list ul li::after {
+    background-size: 100% 100%;
+}
+/**End**/

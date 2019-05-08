@@ -1,0 +1,114 @@
+/*Download Follow-Us .. Down Area*/
+.outr-app {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.get-app{
+	background:#27a3ce;
+	width:50%;
+	padding:75px 80px 110px 275px;
+}
+.get-app:last-child{
+	padding:75px 0 110px 80px;
+}
+.get-app .cmn_hdr h2{
+	padding:0;
+}
+.get-app .cmn_hdr h4{
+	color:#0d100f;
+}
+.get-app.get-soci{
+	background:#13bd77;
+}
+.app-bx-our {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            margin-top:50px;
+}
+.app-bx-innr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+           margin-right:15px;
+           position:relative;
+}
+.app-cm-bx{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+           z-index: 1;
+           padding:10px;
+	background:#ffffff;
+	width:280px;
+}
+.app-bx-innr:after{
+	position:absolute;
+	content:"";
+	left:11px;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	background:rgba(35,127,174,0.3);
+	width:198px;
+	height:124px;
+	z-index: 0;
+}
+.app-bx-innr:last-child{
+	margin-right:0;
+}
+.get-app.get-soci .app-bx-innr:after {
+	background:rgba(10,141,87,0.3);
+}
+.app-info{
+	margin-left:13px;
+	text-align: left
+}
+.app-info h4{
+	color:#6b6b6b;
+	font-size:15px;
+	text-transform:uppercase;
+	margin:0 0 10px;
+	line-height:1;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.app-info h3{
+	color:#000000;
+	font-size:26px;
+	margin:0;
+	line-height:1;
+	font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+}
+.app-bx{
+	width:75px;
+	height:75px;
+	background:#4dbf5f;
+	line-height:90px;
+}
+.app-bx .fab{
+	color:#ffffff;
+	font-size:38px;
+}
+.get-app.get-soci .app-bx {
+    background: #27a3ce;
+}
+/**End**/

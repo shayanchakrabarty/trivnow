@@ -1,0 +1,93 @@
+
+/****************************** Special-event Sec Start ********************************/
+/*Set up a trivia .. Up Area*/
+/***goutam *****/
+.spec-pic {
+    height: 250px;
+}
+.spec-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.spec-txt{
+	padding:25px 18px 15px;
+	background:url(../images/spec-txt-bg.png)no-repeat;
+	background-size:100% 100%;
+}
+.spec-txt h3{
+	color:#000000;
+	font-size:24px;
+	line-height:1;
+	margin:0 0 17px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+}
+.spec-txt p{
+	color:#464646;
+	font-size:16px;
+	line-height:24px;
+	margin:0 0 60px;
+	letter-spacing:1px;
+}
+.spec-des p{
+	color:#ffffff;
+	font-size:20px;
+	margin:0 0 40px;
+	line-height:34px;
+}
+.spec-des .cmn_hdr h2{
+	line-height:1;
+}
+.leran-more.btn.btn-primary{
+	background:#27a3ce;
+	color:#ffffff;
+	font-size:16px;
+	border-radius:4px;
+	padding:15px 0;
+	width:100%;
+	line-height:1;
+	border:2px solid transparent;
+	text-transform: uppercase;
+	letter-spacing:1px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:500;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-ms-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+.leran-more.btn.btn-primary:hover{
+	background:none;
+	border:2px solid #27a3ce;
+	color:#27a3ce;
+}
+
+.special-event{
+	background:url(../images/special-bg.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.innr-special-pic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.special-pic-bx{
+	margin-right:17px;
+	 border-radius: 4px;
+}
+.special-pic-bx:last-child{
+	margin-right:0;
+}
+.spe-evt-outr {
+    padding-top: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+/**End**/

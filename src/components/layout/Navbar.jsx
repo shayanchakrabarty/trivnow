@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-
+import './assets/css/navbar.css';
 class Navbar extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <header>
           <div className="hdr-inn">
             <div className="container">
               <div className="d-sm-flex justify-content-sm-between align-items-center hdr_pad">
                 <div className="logo-sec">
-                  <a className="logo" href="index.html"><img src="/assets/images/hdr_logo.png" alt="" className="img-fluid" /> </a>
+                  <a className="logo" href=""><img src="/assets/images/hdr_logo.png" alt="" className="img-fluid" /> </a>
                 </div>
                 <div className="rght-menu d-sm-flex align-items-center right-side-menu">
                   <div className="navbar-header">
@@ -48,7 +48,7 @@ class Navbar extends Component {
             </div>
           </div>
         </header>
-      </div>
+      </React.Fragment>
     )
   }
 }

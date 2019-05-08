@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './assets/css/top_venues.css';
 import Slider from "react-slick";
 
 function NextArrow(props) {
@@ -31,33 +32,17 @@ class TopVenues extends Component {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3
-          }
-        },
-        {
           breakpoint: 992,
           settings: {
-            slidesToShow: 3,
-            centerMode: true,
+            slidesToShow: 2
           }
         },
         {
-          breakpoint: 569,
-          settings: {
-            slidesToShow: 3,
-            centerMode: true,
-          }
-        },
-        {
-          breakpoint: 484,
+          breakpoint: 601,
           settings: {
             slidesToShow: 1,
-            centerMode: true,
           }
         }
-
       ]
     };
 
@@ -86,9 +71,9 @@ class TopVenues extends Component {
                     <div className="spec-txt">
                       <h3>Decker's LH Grill</h3>
                       <ul>
-                        <li><em><img src="images/tel.png" alt="" /></em><a href="tel:+1 386-228-4289">+1 386-228-4289</a></li>
-                        <li><em><img src="images/web.png" alt="" /></em><a href="#"><b>https://www.deckerslhgrill.com/</b></a></li>
-                        <li><em><img src="images/location.png" alt="" /></em><strong>493 S Lakeview Dr, Lake Helen, <br /> FL 32744, USA</strong></li>
+                        <li><em><img src="/assets/images/tel.png" alt="" /></em><a href="tel:+1 386-228-4289">+1 386-228-4289</a></li>
+                        <li><em><img src="/assets/images/web.png" alt="" /></em><a href="#"><b>https://www.deckerslhgrill.com/</b></a></li>
+                        <li><em><img src="/assets/images/location.png" alt="" /></em><strong>493 S Lakeview Dr, Lake Helen, <br /> FL 32744, USA</strong></li>
                       </ul>
                       <div className="btn-space">
                         <div className="leran-more btn btn-primary">28 cash winners played here!</div>

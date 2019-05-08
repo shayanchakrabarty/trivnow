@@ -1,0 +1,192 @@
+
+/****************************** Top Players Sec Start ********************************/
+/*Player*/
+.players{
+    padding-top:12px;
+    padding-bottom: 20px;
+    background: url(../images/player_bk.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.players .nav-tabs {
+	border: none;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	border: 3px solid #27a3ce;
+	border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.players .active .players_box h3{
+    background: #fff;
+    color:#27a3ce;
+    border-radius: 1px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.players .players_box h3{
+    padding:15px 20px;
+    background: #27a3ce;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#fff;
+}
+.slidr_outr{
+    margin-top: 60px;
+}
+.player_slider .hhh{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #e9f8ff;
+    border-radius: 10px;
+    padding: 20px 18px 20px 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.player_slider .ver_txt{
+    background: #13bd77;
+}
+.player_slider .ver_txt h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size:16px;
+    color:#fff;
+    line-height: 24px;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    letter-spacing: 3px;
+}
+.player_slider .mid_txt{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    -webkit-box-align: center;  
+        -ms-flex-align: center;  
+            align-items: center;
+}
+.player_slider .mid_txt h3{
+    font-size:18px;
+    color:#141414;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.player_slider .mid_txt p {
+    width: 100%;
+    font-weight: 400;
+    color:#464646;
+    line-height: 15px;
+    font-size: 15px;
+}
+.slide_txt_area {
+    padding-left: 12px;
+}
+.player_slider .slide_img_area {
+/*
+	margin: 0px 15px;
+	margin-left: 53px;
+*/
+}
+.player_slider .side_img {
+	background: url(../images/slide_side_img.png) center center no-repeat;
+	background-size: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+/*        margin-right: 20px;*/
+}
+.player_slider .img_bk {
+	border: 3px solid #fff;
+	border-radius: 100%;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.player_slider .img_bk p{
+    font-size: 16px;
+    font-family: 'BebasRegular';
+    color:#fff;
+}
+.player_slider .slick_box_inner {
+	position: relative;
+}
+.player_slider .ver_txt {
+	background: #13bd77;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    width: 34px;
+   -webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.player_slider .slick-slide {
+	padding: 0px 7px;
+}
+.player_slider .slick-list {
+	margin: 0px -7px;
+}
+.player_slider .slide_img_area img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.player_slider .slide_img_area {
+    width: 53px;
+    height: 53px;
+}
+
+.player_slider .side_img{
+    background-size: 100% 100%;
+}
+/*05-06-19*/
+.tab-option {
+	margin-top: 12px;
+}
+/*********sutanu 07.5.2019*************/
+.player_slider .side_img {
+	background-size: 100% auto;
+}
+
+/**End**/

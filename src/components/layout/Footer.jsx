@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-
+import './assets/css/footer.css';
+import './assets/css/responsive.css';
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <footer>
           <div className="ftr-outr">
             <div className="container">
@@ -52,7 +53,7 @@ class Footer extends Component {
             </div>
           </div>
         </footer>
-      </div>
+      </React.Fragment>
     )
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './assets/css/top_players.css';
 import Slider from "react-slick";
 
 function NextArrow(props) {
@@ -26,15 +27,15 @@ class TopPlayers extends Component {
       centerPadding: '0px',
       slidesToShow: 3,
       responsive: [{
-        breakpoint: 992,
+        breakpoint: 1200,
         settings: {
           centerPadding: '0',
           slidesToShow: 2
         }
       }, {
-        breakpoint: 481,
+        breakpoint: 769,
         settings: {
-          centerPadding: '40px',
+          centerPadding: '0',
           slidesToShow: 1
         }
       }]
@@ -42,6 +43,7 @@ class TopPlayers extends Component {
 
     return (
       <React.Fragment>
+        <section className="players">
         <div className="container">
           <div className="text-center cmn_hdr small-after wow fadeInUp">
             <h4>Top Players</h4>
@@ -49,12 +51,12 @@ class TopPlayers extends Component {
           </div>
         </div>
 
-        <div className="tab_cl text-center">
+        <div className="tab_cl tab-option text-center">
           <ul className="nav nav-tabs">
             <li className="active">
               <a data-toggle="tab" href="#box1">
                 <div className="players_box">
-                  <h3>Standings from <br />April24th 2019 - 4am EST</h3>
+                  <h3>Standings from <br />April 24th 2019 - 4am EST</h3>
                 </div>
               </a>
             </li>
@@ -83,11 +85,11 @@ class TopPlayers extends Component {
                       <div className="hhh">
                         <div className="mid_txt">
                           <div className="sl-img">
-                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" /></div>
+                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" alt=""/></div>
                           </div>
                           <div className="slide_txt_area">
                             <h3>YallPantsSquishy</h3>
-                            <p>Speed Round, Round 1, <br /> Round 2, Round 4, Round 5</p>
+                            <p>Speed Round, Round 1, Round 2, Round 4, Round 5</p>
                           </div>
                         </div>
                         <div className="side_img">
@@ -107,11 +109,11 @@ class TopPlayers extends Component {
                       <div className="hhh">
                         <div className="mid_txt">
                           <div className="sl-img">
-                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo2.png" /></div>
+                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo2.png" alt="" /></div>
                           </div>
                           <div className="slide_txt_area">
                             <h3>mwtron22</h3>
-                            <p>Round 2, Round 4, <br /> Round 5</p>
+                            <p>Round 2, Round 4,  Round 5</p>
                           </div>
                         </div>
                         <div className="side_img">
@@ -130,11 +132,11 @@ class TopPlayers extends Component {
                       <div className="hhh">
                         <div className="mid_txt">
                           <div className="sl-img">
-                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" /></div>
+                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" alt="" /></div>
                           </div>
                           <div className="slide_txt_area">
                             <h3>bearcats</h3>
-                            <p>Round 2, Round 4, <br /> Round 5, Round 6</p>
+                            <p>Round 2, Round 4, Round 5, Round 6</p>
                           </div>
                         </div>
                         <div className="side_img">
@@ -153,7 +155,7 @@ class TopPlayers extends Component {
                       <div className="hhh">
                         <div className="mid_txt">
                           <div className="sl-img">
-                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo2.png" /></div>
+                            <div className="slide_img_area"><img src="/assets/images/slider_mid_logo2.png" alt="" /></div>
                           </div>
                           <div className="slide_txt_area">
                             <h3>YallPantsSquishy</h3>
@@ -182,7 +184,7 @@ class TopPlayers extends Component {
                       </div>
                       <div className="hhh">
                         <div className="mid_txt">
-                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" /></div>
+                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" alt="" /></div>
                           <div className="slide_txt_area">
                             <h3>YallPantsSquishy</h3>
                             <p>Speed Round, Round 1, Round 2, Round 4, Round 5</p>
@@ -203,29 +205,7 @@ class TopPlayers extends Component {
                       </div>
                       <div className="hhh">
                         <div className="mid_txt">
-                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" /></div>
-                          <div className="slide_txt_area">
-                            <h3>YallPantsSquishy</h3>
-                            <p>Speed Round, Round 1, Round 2, Round 4, Round 5</p>
-                          </div>
-                        </div>
-                        <div className="side_img">
-                          <div className="img_bk">
-                            <p>$100</p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                  <div className="slick_box_outer">
-                    <div className="slick_box_inner">
-                      <div className="ver_txt">
-                        <h3>FIRST</h3>
-                      </div>
-                      <div className="hhh">
-                        <div className="mid_txt">
-                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" /></div>
+                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" alt="" /></div>
                           <div className="slide_txt_area">
                             <h3>YallPantsSquishy</h3>
                             <p>Speed Round, Round 1, Round 2, Round 4, Round 5</p>
@@ -247,7 +227,29 @@ class TopPlayers extends Component {
                       </div>
                       <div className="hhh">
                         <div className="mid_txt">
-                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" /></div>
+                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" alt="" /></div>
+                          <div className="slide_txt_area">
+                            <h3>YallPantsSquishy</h3>
+                            <p>Speed Round, Round 1, Round 2, Round 4, Round 5</p>
+                          </div>
+                        </div>
+                        <div className="side_img">
+                          <div className="img_bk">
+                            <p>$100</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div className="slick_box_outer">
+                    <div className="slick_box_inner">
+                      <div className="ver_txt">
+                        <h3>FIRST</h3>
+                      </div>
+                      <div className="hhh">
+                        <div className="mid_txt">
+                          <div className="slide_img_area"><img src="/assets/images/slider_mid_logo.png" alt="" /></div>
                           <div className="slide_txt_area">
                             <h3>YallPantsSquishy</h3>
                             <p>Speed Round, Round 1, Round 2, Round 4, Round 5</p>
@@ -268,6 +270,7 @@ class TopPlayers extends Component {
           </div>
         </div>
         <div className="spec-btm-text">Event Players</div>
+        </section>
       </React.Fragment>
     )
   }

@@ -29,7 +29,7 @@
     
     /*Header*/
     ul.navbar-nav li {
-	margin-right: 37px;
+	margin-right: 40px;
     }
     .logo-sec{
 	width: 195px;
@@ -58,10 +58,7 @@
 	max-width: 1200px;
     }
     ul.navbar-nav li a{
-        font-size:14px;
-    }
-    ul.navbar-nav li {
-	margin-right: 32px;
+        font-size:15.5px;
     }
     .hdr-btn .login, .hdr-btn .sign-up{
          font-size:14px;
@@ -71,7 +68,7 @@
     }
     .banner_description h1 {
 	font-size: 47px;
-	line-height: 72px;
+	line-height: 58px;
 }
     .bnr_txt p{
         font-size: 16.5px;
@@ -80,22 +77,36 @@
 	margin-top: 10px;
     }
     .commn_btn {
-	font-size: 20px;
+	font-size: 16px;
 	margin-top: 35px;
-	padding: 16px 44px;x;
+	padding: 15px 30px;
+        letter-spacing: 1.5px;
     }
     .banner_description{
-        top:56%;
+        top:52%;
     }
-    .cmn_hdr h2{
+    .cmn_hdr h2 {
+	font-size: 39px;
         padding-bottom: 15px;
+        line-height: 50px;
+    }
+    .cmn_hdr.long-after h4{
+        font-size: 18px;
+        padding-bottom: 5px;
     }
     .cmn_p p {
 	font-size: 17px;
 	line-height: 30px;
     }
+    .cmn_p.center_p p {
+	padding:0px 61px;
+    }
+    .cmn_hdr h4{
+        font-size: 17px;
+    }
     .player_slider .mid_txt p{
         font-size:13.5px;
+        line-height: 18px;
     }
     .player_slider .hhh{
         padding: 15px 18px 15px 50px;
@@ -109,123 +120,1805 @@
     }
     .spec-btm-text {
 	font-size: 156px;
+        line-height: 140px;
     }
     .spec-txt h3 {
         font-size: 20px;
     }
+    .venue-outr {
+	margin: 45px 0 0;
+    }
     .venue-outr .spec-txt ul li strong{
-        font-size: 16px;
+        font-size: 15.5px;
     }
     .venue-outr .spec-txt ul li b{
-        font-size: 16px;
+        font-size: 15.5px;
     }
     .venue-outr .spec-txt ul li a {
-         font-size: 16px;
+         font-size: 15.5px;
+    }
+    .venue-outr .spec-txt ul{
+        margin-bottom: 0px;
     }
     .leran-more.btn.btn-primary{
         font-size: 14px;
     }
     .ques-ans h3{
-        font-size: 18px;
+        font-size: 17.5px;
     }
     .ques-label{
         font-size: 15px;
+        padding-left: 20px;
     }
+    
     .event-list-outr h4{
-        font-size: 18px;
+        font-size: 17px;
     }
     .event-list-outr p{
         font-size: 16px;
+        line-height: 23px;
     }
     .event-list ul li {
-        padding: 13px 0 10px 65px;
+        padding: 20px 0 15px 65px;
+    }
+    .event-list ul li:first-child {
+	padding: 15px 0 20px 65px;
+    }
+    .event-list ul li::after {
+	width: 28px;
+	height: 50px;
+	top: 27px;
+	background-size: 100% 100%;
+    }
+    .event-list ul li:first-child::after {
+	top: 20px;
     }
     .event-list-outr h4{
         margin-bottom: 08px;
     }
-    .spec-des p{
-        font-size: 18px;
-        line-height: 32px;
+    .spe-evt-outr {
+        padding-top: 85px;
+    }
+    .spec-des p {
+	font-size: 17px;
+	line-height: 30px;
+	letter-spacing: 0.3px;
+}
+    .spec-pic {
+	height: 210px;
+    }
+    .spec-txt {
+        padding: 20px 18px 15px;
+    }
+    .spec-txt p {
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: 0;
     }
     .spec-des p{
-        margin-bottom: 27px;
-    }
-    .commn_btn {
-	font-size: 16px;
-	padding: 16px 40px;
+        margin-bottom: 15px;
     }
     .spec-txt p{
         margin: 0 0 40px;
     }
+    .resp-tabs-list li {
+	padding: 23px 62px;
+
+    }
     .get-app {
 	padding: 75px 80px 110px 120px;
+    }
+    .time::after, .time{
+        width: 225px;
+    }
+    .time{
+        padding: 7px 0px;
+    }
+    .players .players_box h3{
+        padding: 10px 18px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .venues-sec{
+        padding: 10px 0 80px;
+    }
+    .event-sec {
+        padding: 80px 0;
+    }
+    .ques-outr p{
+        font-size:17px;
+    }
+    .ques-outr p {
+        margin: 0 0 45px;
+    }
+    .ques-ans {
+	padding: 20px 5px 20px 16px;
+    }
+    .ques-no h5{
+        font-size:22px;
+    }
+    .players{
+        padding-bottom: 10px;
+    }
+    .cmn_hdr.small-after h4{
+        padding-top: 55px;
+    }
+    .slick-prev, .slick-next{
+        width:37px;
+        height:37px;
+    }
+    .get-app {
+	padding: 60px 65px 75px 98px;
+    }
+    .get-app:last-child {
+	padding: 60px 0 75px 50px;
+    }
+    .app-bx-our {
+	margin-top: 33px;
+    }
+    .app-info h3{
+        font-size: 22px;
+    }
+    .app-bx .fab {
+	font-size: 35px;
+    }
+    .app-bx {
+	width: 60px;
+	height: 60px;
+	line-height: 75px;
+    }
+    .app-cm-bx {
+	width: 260px;
+    }
+    .ftr-hdr h3{
+        font-size: 18px;
+    }
+    .bottom-ftr {
+	padding: 40px 0;
+    }
+    .venue-bottom{
+        padding:80px 0px 0px;
     }
 }
 
 
 @media (max-width: 1366px) {
+    .container {
+	max-width: 90%;
+    }
+    .spec-btm-text {
+	font-size: 147px;
+	line-height: 135px;
+    }
     
 }
 
 @media (max-width: 1280px){
-	
+    ul.navbar-nav li {
+            margin-right: 30px;
+    }
+    .logo-sec {
+	width: 190px;
+    }
+    .banner_description h1 {
+	font-size: 42px;
+	line-height: 52px;
+    }
+    .cmn_hdr h2 {
+	font-size: 36px;
+	padding-bottom: 12px;
+	line-height: 46px;
+    }
+    .cmn_hdr.long-after h4 {
+	font-size: 16px;
+	padding-bottom: 5px;
+    }
+    .cmn_p p {
+	font-size: 16px;
+	line-height: 28px;
+}
+    .player_slider .slide_img_area {
+	width: 47px;
+	height: 47px;
+    }
+    .player_slider .hhh {
+	padding: 15px 12px 15px 45px;
+}
+    .player_slider .ver_txt h3 {
+	font-size: 14px;
+	letter-spacing: 1px;
+    }
+    .player_slider .img_bk{
+        width: 38px;
+        height: 38px;
+    }
+    .spec-btm-text {
+	font-size: 140px;
+	line-height: 115px;
+}
+    .venue-outr .slick-slide {
+	padding: 0 20px;
+    }
+    .leran-more.btn.btn-primary {
+	font-size: 13.5px;
+    }
+    .venue-outr .spec-txt {
+	padding: 25px 0 10px;
+    }
+    .resp-tabs-list li {
+	padding: 20px 50px;
+    }
+    .ques-outr p {
+	margin: 0 0 35px;
+    }
+    .ques-outr {
+	padding: 25px 0 0;
+    }
+    .ques-outr p {
+	font-size: 16px;
+    }
+    .ques-ans h3 {
+	font-size: 16px;
+    }
+    .ques-label {
+        font-size: 14.5px;
+    }
+    .ques-label{
+        margin-right: 10px;
+    }
+    .ques-no{
+        width: 45px;
+    }
+    .ques-no h5 {
+	font-size: 19px;
+}
+    .ques-ans {
+	padding: 15px 5px 15px 15px;
+}
+    .venues-sec {
+	padding: 10px 0 70px;
+    }
+    .event-sec {
+	padding: 70px 0;
+}
+    
+    .ques-pic {
+	width: 37%;
+    }
+    .event-list ul li:first-child {
+	padding: 15px 0 20px 45px;
+    }
+    .event-list ul li {
+	padding: 20px 0 15px 45px;
+    }
+    .event-list-outr p {
+	font-size: 15px;
+	line-height: 20px;
+    }
+    .event-list-outr h4 {
+	font-size: 16.5px;
+	line-height: 20px;
+        }
+    .spec-des p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 28px;
+    }
+    .spec-txt p {
+	margin: 0 0 30px;
+    }
+    .spec-pic {
+	height: 190px;
+    }
+    .spec-txt h3 {
+	font-size: 19px;
+	margin: 0 0 12px;
+    }
+    .ftr-outr {
+	padding: 70px 0 0;
+    }
+    footer::before {
+        top: -44px;
+        width: 84px;
+        height: 90px;
+    }
+    .trivnow-logo {
+	margin: 0 auto 40px;
+	width: 205px;
+	height: 70px;
+    }
+    .comm-ftr {
+	padding: 30px 0 15px;
+    }
+    
+    .ftr-hdr ul li {
+	margin: 0 0 18px;
+}
+    
+    .bottom-ftr {
+	padding: 30px 0;
+    }
+    .get-app {
+	padding: 60px 65px 75px 60px;
+    }
+    .app-bx {
+	width: 52px;
+	height: 52px;
+	line-height: 67px;
+    }
+    .get-app:last-child {
+	padding: 60px 0 75px 34px;
+}
+    .app-cm-bx {
+	width: 248px;
+    }
 }
 
 @media (max-width: 1199px) {
-   
+   .player_slider .hhh {
+	padding: 15px 20px 15px 50px;
+    }
+    .slick-prev, .slick-next {
+	width: 33px;
+	height: 33px;
+    }
+    .slick-prev{
+        left:-40px;
+    }
+     .slick-next{
+        right:-40px;
+    }
+   /* .player_slider .ver_txt{
+        width: 28px;
+    }
+    .player_slider .img_bk p {
+    font-size: 14px;
+}
+    .player_slider .img_bk {
+	width: 34px;
+	height: 34px;
+    }*/
+    
+    .spec-btm-text {
+	font-size: 126px;
+	line-height: 100px;
+}
+    
+    .venue-outr .slick-slide {
+	padding: 0 10px;
+    }
+    .venue-outr .spec-txt h3, .btn-space {
+	padding: 0 15px;
+    }.leran-more.btn.btn-primary {
+
+    background: #27a3ce;
+        padding: 10px 0;
+    }
+    .spec-pic {
+	height: 175px;
+    }
+    .venue-bottom {
+	padding: 55px 0px 0px;
+    }
+    .container {
+	max-width: 93%;
+    }
+    .player_slider .slick-slide {
+	padding: 0px 20px;
+    }
+    .player_slider .slick-list {
+	margin: 0px -20px;
+    }
+    .players .players_box h3 {
+	padding: 9px 17px;
+	font-size: 14px;
+	line-height: 20px;
+    }
+    ul.navbar-nav li a {
+	font-size: 15px;
+    }
+    ul.navbar-nav li {
+	margin-right: 24px;
+    }
+.hdr-btn .login, .hdr-btn .sign-up {
+	font-size: 14px;
+    }
+    .hdr-btn .sign-up {
+	padding: 8px 12px;
+    }
+    .hdr-btn {
+	padding-left: 30px;
+    }
+    .hdr-btn .login {
+        margin-right: 15px;
+    }
+    .banner_description h1 {
+	font-size: 38px;
+	line-height: 48px;
+    }
+    .cmn_hdr.long-after h4::after {
+	top: -140px;
+	width: 85px;
+	height: 128px;
+    }
+    .commn_btn {
+	font-size: 15px;
+	margin-top: 30px;
+	padding: 12px 25px;
+	letter-spacing: 1px;
+    }
+    .cmn_hdr h2 {
+	font-size: 32px;
+	padding-bottom: 10px;
+	line-height: 30px;
+    }
+    .cmn_hdr h4 {
+	font-size: 14.5px;
+        padding-bottom: 5px;
+    }
+    .resp-tabs-list li {
+	padding: 15px 35px;
+    }
+    /* .spec-pic {
+	height: auto;
+    } */
+    .app-bx-innr::after {
+	width: 168px;
+	height: 99px;
+    }
+    .get-app {
+	padding: 60px 65px 75px 50px;
+}
+    .app-info h4{
+        font-size: 13px;
+    }
+    .app-info h3 {
+	font-size: 17px;
+}
+    .app-cm-bx {
+	width: 227px;
+}
+    .app-bx-innr::after {
+	width: 130px;
+	height: 100px;
+    }
+
+    .venue-outr .spec-txt ul li strong {
+	font-size: 15px;
+	line-height: 20px;
+}
+}
+@media (max-width:1080px) {
+	.venue-outr .spec-txt ul li {
+	   padding: 0 14px;
+        }
+    .venue-outr .spec-txt ul li strong{
+        font-size: 15px;
+    }
+    .venue-outr .spec-txt ul li b{
+        font-size: 15px;
+    }
+    .venue-outr .spec-txt ul li a {
+         font-size: 15px;
+    }
+    .venue-bottom {
+	padding: 40px 0px 0px;
+    }
+ul.navbar-nav li {
+	margin-right: 18px;
+}
+    ul.navbar-nav li a {
+	font-size: 14px;
+    }
+    .logo-sec {
+	width: 170px;
+}
+    .hdr-btn {
+	padding-left: 20px;
+}
+    .banner_description h1 {
+	font-size: 32px;
+	line-height: 40px;
+}
+    .bnr_txt p {
+	font-size: 16.5px;
+	line-height: 20px;
+}
+    .time::after, .time {
+	width: 200px;
+    }
+    .time h5 {
+	font-size: 16px;
+    }
+    .time{
+        margin-top: 10px;
+    }
+    .cmn_p.center_p p {
+	padding: 0px 60px;
+    }
+    .slidr_outr {
+	margin-top: 40px;
+    }
+    .spec-btm-text {
+	font-size: 119px;
+	line-height: 96px;
+    }
+    .resp-outr {
+	margin-top: 10px;
+}
+    /* .venue-outr .spec-txt ul li strong{
+        line-height:24px;
+    } */
+    .event-outr .col-md-6:last-child .event-innr {
+	padding-left: 12px;
+    }
+    .event-list-outr h4 {
+	font-size: 16px;
+	line-height: 20px;
+}
+    .event-list ul li:first-child {
+	padding: 13px 0 15px 45px;
+}
+    .event-list ul li {
+	padding: 15px 0 10px 45px;
+}
+    .event-list ul li::after {
+        width: 24px;
+        height: 40px;
+    }
+    .event-list ul li:first-child::after {
+	top: 15px;
+    }
+    .event-list ul li::after{
+        top:17px;
+    }
+    .cmn_hdr h4{
+        letter-spacing: 2px;
+    }
+    .event-outr .commn_btn {
+	padding: 15px 20px;
+    }
+    .spe-evt-outr {
+	padding-top: 60px;
+    }
+    .event-sec {
+	padding: 55px 0;
+    }   
+    .eve-outr:first-child {
+	margin-bottom: 15px;
+    }
+    .eve-outr {
+	padding: 0 6px;
+    }
+    .spec-txt p {
+        font-size: 13px;
+    }
+    .spec-txt {
+	padding: 20px 13px 15px;
+    }
+    .spec-pic {
+	height: 215px;
+    }
+    .ftr-hdr ul li {
+	margin: 0 0 14px;
+    }
+    .ftr-outr {
+	padding: 60px 0 0;
+    }
+    .ftr-hdr h3 {
+        margin: 0 0 20px;
+    }
+    .bottom-ftr {
+	padding: 20px 0;
+    }
+    .ques-pic {
+	width: 30%;
+    }
+    .spec-txt h3 {
+	font-size: 18px;
+	margin: 0 0 10px;
+    }
+    .slidr_outr{
+        padding:0px 50px;
+    }
+    .slick-prev {
+	left: -50px;
+}
+    .slick-next {
+	right: -50px;
+}
+    .player_slider .slick-slide {
+	padding: 0px 14px;
+}
+    .player_slider .slick-list {
+	margin: 0px -14px;
+        }
+    .venue-outr {
+	padding: 0px 50px;
+    }
+    .app-bx .fab {
+	font-size: 25px;
+}
+    .app-bx {
+	width: 40px;
+	height: 40px;
+	line-height: 49px;
+}
+    .app-bx-innr::after {
+	width: 115px;
+	height: 90px;
+}
+    .app-cm-bx {
+	width: 216px;
+    }
+    
 }
 
-@media (max-width:1080px) {
-		
-}
 	
 	
 @media (max-width:1024px) {
-	
+	.spec-btm-text {
+	font-size: 115px;
+	line-height: 95px;
+    }
+    .app-info {
+	margin-left: 10px;
+	text-align: left;
+    }
+    .get-app {
+	padding: 60px 65px 75px 40px;
+}
+    .app-info h4 {
+	font-size: 12px;
+}
+    .app-cm-bx {
+	width: 202px;
+}
 }
 
 @media (max-width: 991px) {
-
+    ul.navbar-nav li a {
+        font-size: 13px;
+    }
+    .logo-sec {
+	width: 160px;
+    }
+    .hdr-btn .login, .hdr-btn .sign-up {
+	font-size: 13px;
+    }
+    .hdr-btn {
+	padding-left: 15px;
 }
+    .hdr-btn .login {
+	margin-right: 10px;
+    }
+    .commn_btn {
+	margin-top: 25px;
+	padding: 10px 23px;
+    }
+    .cmn_p p {
+	font-size: 15px;
+	line-height: 24px;
+    } 
+    .spec-btm-text {
+	font-size: 108px;
+	line-height: 94px;
+    }
+    .container {
+	max-width: 95%;
+    }
+    .cmn_hdr h4 {
+        font-size: 14PX;
+        padding-bottom: 10px;
+    }
+    .cmn_hdr h2 {
+    font-size: 30px;
+}
+    .venue-outr .spec-txt {
+	padding: 17px 0 10px;
+    }
+    .cmn_hdr.small-after h4::after {
+        height:35px;
+    }
+    .cmn_hdr.small-after h4 {
+	padding-top: 40px;
+    }
+    .ques-ans h3 {
+	font-size: 15.5px;
+    }
+    .ques-pic {
+	width: 25%;
+}
+    .ques-ans h3 {
+	margin-bottom: 10px;
+    }
+    .ques-label {
+	font-size: 13.5px;
+    }
+    .ques-innr ul li {
+	margin-bottom: 13px;
+    }
+    .ques-no {
+	width: 38px;
+    }
+    .ques-no h5 {
+	font-size: 16px;
+    }
+    .venues-sec {
+	padding: 10px 0 50px;
+    }
+    .event-sec {
+	padding: 45px 0;
+    }
+    .event-outr .col-md-6:last-child .event-innr {
+	padding-left: 0;
+    }
+    .spec-txt p {
+	font-size: 12px;
+    }
+    .spec-des p {
+	margin-bottom: 0px;
+	font-size: 14px;
+    }
+    /* .spec-pic{
+        height:auto;
+    } */
+    .event-list-outr p {
+	font-size: 14px;
+	line-height: 20px;
+    }
+    footer::before {
+	top: -39px;
+	width: 78px;
+	height: 80px;
+    }
+    .trivnow-logo {
+	margin: 0 auto 30px;
+	width: 180px;
+	height: 60px;
+    }
+    .event-list-outr h4 {
+	font-size: 15px;
+	line-height: 18px;
+    }
+    .ftr-hdr ul li a{
+        font-size:14px;
+    }
+    .comm-ftr {
+	padding: 20px 0 10px;
+    }
+    .spec-txt {
+	padding: 15px 13px 10px;
+    }
+    .hdr-btn .sign-up {
+	padding: 8px 10px;
+    }
+}
+@media (max-width: 900px) {
+  .logo-sec {
+	width: 130px;
+    }
+    ul.navbar-nav li {
+	margin-right: 10px;
+    }
 
+    .hdr-btn .sign-up {
+	padding: 5px 8px;
+    }
+    .player_slider .ver_txt{
+        width:25px;
+    }
+    .player_slider .mid_txt p {
+	font-size: 13px;
+	line-height: 16px;
+    }
+    .player_slider .hhh {
+	padding: 15px 10px 15px 28px;
+    }
+    .player_slider .mid_txt h3 {
+	font-size: 15px;
+    }
+    .spec-btm-text {
+	font-size: 98px;
+	line-height: 95px;
+    }
+    .cmn_hdr h2 {
+	font-size: 28px;
+    }
+    .venue-outr {
+	margin: 30px 0 0;
+    }
+    .event-list ul li:first-child::after {
+	top: 10px;
+    }
+    .event-list ul li::after {
+	top: 10px;
+    }
+    .event-list ul li:first-child {
+	padding: 8px 0 10px 26px;
+    }
+    .event-list ul li {
+	padding: 8px 0 8px 25px;
+    }
+    .event-list ul li::after {
+	width: 18px;
+	height: 30px;
+    }
+    .cmn_hdr h4 {
+	font-size: 13PX;
+	padding-bottom: 7px;
+    }
+    .spec-txt {
+	padding: 10px 8px 10px;
+    }
+    .spec-des p {
+	font-size: 13px;
+	line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .trivnow-logo {
+	margin: 0 auto 20px;
+	width: 150px;
+	height: 55px;
+    }
+    .ftr-outr {
+	padding: 45px 0 0;
+    }
+    .innr-ftr {
+	padding: 15px 0;
+}
+    .spe-evt-outr {
+	padding-top: 45px;
+    }
+    .event-outr .commn_btn {
+	padding: 10px 14px;
+    }
+    .cmn_hdr.long-after h4::after {
+	top: -100px;
+	width: 67px;
+	height: 94px;
+    }
+    .event-list-outr p {
+	line-height: 18px;
+    }
+    .ftr-hdr h3 {
+	margin: 0 0 15px;
+	font-size: 16px;
+    }
+    .copy-right p, .copy-right p a{
+        font-size:14px;
+    }
+}
 @media (max-width: 812px) {
+  ul.navbar-nav li a {
+	font-size: 11.5px;
+    }
+    .hdr-btn .login, .hdr-btn .sign-up {
+	font-size: 11px;
+    }
+    .banner_description h1 {
+	font-size: 28px;
+	line-height: 35px;
+    }
+    .bnr_txt p {
+	font-size: 15px;
+	line-height: 20px;
+    }
+    .commn_btn {
+	margin-top: 20px;
+	padding: 7px 20px;
+    }
+    
+    .slidr_outr {
+	padding: 0px 40px;
+    }
+    .player_slider .hhh {
+	padding: 15px 10px 15px 25px;
+    }
+    .player_slider .img_bk p {
+        font-size: 13px;
+    }
+    .player_slider .img_bk {
+	width: 30px;
+	height: 30px;
+    }
+    .player_slider .img_bk {
+        border: 2px solid #fff;
+    }
+    .player_slider .ver_txt h3 {
+
+        font-size: 12px;
+    }
+    .player_slider .ver_txt {
+	width: 20px;
+    }
+    .slide_txt_area {
+	padding-left: 8px;
+    }
+    .time::after, .time {
+	width: 160px;
+    }
+    .time h5 {
+	font-size: 15.5px;
+    }
+    .players .players_box h3 {
+	padding: 7px 15px;
+	font-size: 13px;
+	line-height: 19px;
+    }
+    .spec-btm-text {
+	font-size: 88px;
+	line-height: 94px;
+    }
+    .ques-ans h3 {
+	font-size: 15px;
+    }
+    .commn_btn {
+        font-size: 14px;
+    }
+    .spec-des p {
+        margin-bottom: 0px;
+    }
+    .ftr-hdr ul li a {
+	font-size: 13.5px;
+    }
+    .copy-right p, .copy-right p a {
+	font-size: 13px;
+    }
+    .ftr-hdr h3 {
+	margin: 0 0 10px;
+	font-size: 15px;
+    }
+    .get-app .cmn_hdr h2{
+        font-size: 24px;
+    }
+    /*.app-bx-our{
+       -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align:left;
+        -ms-flex-align:left;
+                align-items:left !important;
+        -webkit-box-align: left;
+    }*/
+    .app-info h4 {
+	font-size:12px;
+}
+    .app-info h3 {
+	font-size: 14px;
+}
+      .app-cm-bx {
+	width: 210px;
+          padding:10px;
+}
+    .app-bx .fab {
+	font-size: 18px;
+}
+    .app-bx {
+	width: 30px;
+	height: 30px;
+	line-height: 35px;
+}
+    .app-bx-our {
+	margin-top: 28px;
+}
+    .app-bx-innr{
+        margin-right: 10px;
+    }
+    .app-bx-innr::after {
+	width: 95px;
+	height: 75px;
+}
+    .app-info h4{
+        margin: 0px 0px 5px;
+    }
   
 }
 
 @media (max-width: 768px) {
-
+    h2.resp-accordion{
+        margin: 10px 0px;   
+    }
+    .banner_description h1 {
+	font-size: 26px;
+	line-height: 34px;
+    }
+    .time {
+	margin-top: 4px;
+    }
+    .cmn_hdr h2 {
+	font-size: 25px;
+    }
+    .cmn_p p {
+	font-size: 14px;
+	line-height: 22px;
+    }
+    .container {
+	max-width: 97%;
+    }
+    .slidr_outr {
+	padding: 0px 35px;
+    }
+    .player_slider .slick-slide {
+	padding: 0px 7px;
+    }
+     .player_slider .slick-list {
+	margin: 0px -7px;
+        }
+    .slidr_outr {
+	margin-top: 30px;
+    }
+    .players {
+	padding-bottom: 0;
+    }
+    .spec-btm-text {
+	font-size: 85px;
+	line-height: 95px;
+    }
+    .venue-outr .spec-txt h3, .btn-space {
+	padding: 0 7px;
+    }
+    .leran-more.btn.btn-primary {
+	font-size: 13px;
+    }
+    .venue-outr .spec-txt ul li strong{
+        font-size: 14.5px;
+    }
+    .venue-outr .spec-txt ul li b{
+        font-size: 14.5px;
+    }
+    .venue-outr .spec-txt ul li a {
+         font-size: 14.5px;
+    }
+    .spec-txt h3 {
+	font-size: 16px;
+	margin: 0 0 13px;
+    }
+    .resp-outr {
+	margin-top: 10px;
+	display: none;
+    }
+    .resp-tabs-container {
+	margin-top: 13px;
+    }
+    
+    /*Accro*/
+    .resp-accordion{
+        
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+        background: #27a3ce;
+        padding: 23px 70px;
+        letter-spacing: 2px;
+    }
+    h2.resp-accordion{
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+    }
+    .resp-accordion.resp-tab-active{
+        background: #fff;
+    }
+    .resp-arrow{
+        border-top: 12px solid #fff;
+    }
+    h2.resp-accordion.resp-tab-active{
+         color: #27a3ce;
+    }
+     .spec-btm-text {
+	font-size: 70px;
+	line-height: 95px;
+    }
+    
 }
 
 @media (max-width: 767px){
-  
+    .hdr-btn {
+	padding-left: 0;
+	position: absolute;
+	right: 100px;
+        top:10px;
+    }
+    .hdr-btn .sign-up {
+	padding: 6px 10px;
+    }
+    .hdr-btn .login, .hdr-btn .sign-up {
+	font-size: 12px;
+}
+    .hdr-inn{
+        z-index: 2;
+    }
+    /*.hdr-inn{
+        position: relative;
+        background: #eee;
+        
+    }
+    */
+.navbar-light .navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(37,190,245,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+
+}
+.navbar-toggler:focus {
+	outline: none;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    }
+.collapse:not(.show) {
+    display: none;
+}
+.navbar-nav {
+    -ms-flex-direction: column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+            flex-direction:column;
+     float: none;
+}
+.navbar-nav {
+    float: none;
+    background: #0984b0;
+    padding: 15px 0;
+    text-align: center;
+}
+    .logo-sec {
+        float: none;
+        position: relative;
+        z-index: 999;
+    }
+
+.rght-menu .form-inline {
+    float: none;
+    margin-top: 0;
+}
+.navbar-light .navbar-toggler {
+    display: block;
+    }
+ul.navbar-nav li {
+    margin-right: 0;
+    padding-right: 0;
+    background: none;
+    margin-bottom: 20px;
+}
+ul.navbar-nav li:last-child{ 
+    margin-bottom:0;
+}
+.rght-menu .form-inline .btn.btn-primary {
+    margin: auto;
+}
+.navbar-collapse {
+    background: none;
+    margin-top: 8px;
 }
 
+.rght-menu.right-side-menu{
+    background: #ebebeb;
+    margin-left: -35px;
+    margin-right: -35px;
+    margin-top: 5px;
+}
+.hdr_fix {
+    position: static;
+    }
+ul.navbar-nav li {
+    margin-bottom: 20px;
+}
+
+    ul.navbar-nav li a {
+        color:#fff!important;
+        font-size: 15px;
+    }
+    .hdr-inn  .d-sm-flex {
+        -webkit-box-align: start!important;
+            -ms-flex-align: start!important;
+                align-items: flex-start!important;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        right: 14px;
+        top: -45px;
+    }
+
+    header {
+        position: relative;
+    }
+
+  .hdr-inn   .d-sm-flex {
+    display: block !important;
+}
+
+.rght-menu.right-side-menu {
+    right: 0;
+    margin-top: 0;
+    float: right;
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    margin: auto;
+    background: none;
+}
+.hdr-btn {
+    position: absolute;
+    top: -40px;
+    right: 85px;
+}
+    .slidr_outr {
+	padding: 0px 50px;
+    }
+  
+    .players .players_box h3 {
+	padding: 6px 10px;
+	font-size: 12px;
+	line-height: 17px;
+}
+  
+    .player_slider .ver_txt {
+	width: 23px;
+    }
+    .spec-btm-text {
+	font-size: 70px;
+	line-height: 67px;
+	margin-top: -19px;
+    }
+    .venue-outr {
+	padding: 0px 28px;
+    }
+    .venue-outr .slick-prev {
+	left: -36px;
+    } 
+    .venue-outr .slick-next {
+	right: -36px;
+    } 
+    .venue-outr .spec-txt ul li strong{
+        font-size: 14px;
+    }
+    .venue-outr .spec-txt ul li b{
+        font-size: 13px;
+    }
+    .venue-outr .spec-txt ul li a {
+         font-size: 13px;
+    }
+    .venue-outr .spec-txt ul li {
+	padding: 0 7px;
+    }
+    .event-sec .event-outr .cmn_hdr{
+        padding-top: 30px;
+    }
+    
+    .spe-evt-outr .row{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .spe-evt-outr div[class^="col"] {
+       -webkit-box-flex: 0;
+           -ms-flex: 0 0 100%;
+               flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .spec-pic {
+	height: 180px;
+    }
+    .innr-special-pic {
+	margin-bottom: 30px;
+    }
+    .spe-evt-outr {
+	padding-top: 40px;
+    }
+    .event-sec {
+	padding: 40px 0;
+    }
+    .ftr-hdr.address-bx ul li:first-child {
+	line-height: 32px;
+    }
+    .ftr-hdr h3 {
+        margin: 0 0 20px;
+    }
+     .event-list ul li {
+	padding: 10px 0 15px 26px;
+}
+    .event-list ul li:first-child {
+	padding: 10px 0 15px 26px;
+}
+    .event-list-outr p {
+	padding-top: 5px;
+    }
+.get-app:last-child {
+	padding: 40px 0 60px 20px;
+}
+    .get-app:last-child {
+	padding: 40px 0 75px 20px;
+    }
+    .get-app {
+	padding: 40px 10px 50px 35px;
+}
+    .app-bx-our{
+        display: block;
+    }
+    .app-bx-innr::after {
+	width: 86px;
+	height: 66px;
+}
+    .app-bx-innr {
+	margin-bottom: 25px;
+}
+    
+    
+    /* Sutanu 07-05-19*/
+    .navbar-nav{
+        padding:06px 0px;
+    }
+    .nav-link{
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        padding:10px 0px;
+    }
+    .nav-link:hover{
+        background: #000;
+    }
+    ul.navbar-nav li {
+	margin-bottom: 0;
+    }
+    .time::after, .time {
+	width: 110px;
+	height: 25px;
+}
+    .time h5 {
+	font-size: 11px;
+}
+}
+
+
 @media(max-width:667px){
+   .ftr-hdr ul li a {
+	font-size: 13px;
+    }
+    .ftr-hdr.address-bx ul li:first-child {
+	line-height: 25px;
+    }
+    .get-app {
+	padding: 40px 10px 30px 25px;
+}
+    .get-app:last-child {
+	padding: 40px 0 30px 20px;
+}
+    .get-app .cmn_hdr h2 {
+	/* height: 60px; */
+	letter-spacing: 0px;
+}
+    
    
 }
 
 @media (max-width:640px){
+.comm-ftr {
+	border-right: 0;
+}
+    .innr-ftr{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .comm-ftr {
+        width: 100%;
+    }
+    .comm-ftr:nth-child(2){
+        width:100%;
+    }
+    .ftr-hdr ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+    .ftr-hdr ul li{
+	padding:0px 20px;
+}
+    .ftr-hdr ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+    .comm-ftr {
+	padding: 20px 0 15px;
+    }
+    .ftr-hdr ul li {
+	margin: 0 0 10px;
+    }
+    .ftr-hdr h3 {
+	font-size: 16px;
+    }
+    .cmn_hdr.long-after h4::after {
+	top: -72px;
+	width: 53px;
+	height: 67px;
+    }
+       .get-app .cmn_hdr h2 {
+	font-size: 24px;
+}
 
 }
 
 @media (max-width:600px){
-	
+	.cmn_hdr h2 {
+            font-size: 24px;
+    }
+    .cmn_hdr.long-after h4 {
+	font-size: 14px;
+	padding-bottom: 3px;
+    }
+    .time::after, .time {
+	width: 140px;
+    }
+    .venue-outr {
+	padding: 0px 35px;
+    }
+    .spec-btm-text {
+	font-size: 63px;
+	line-height: 58px;
+	margin-top: -15px;
+    }
+    .spe-evt-outr {
+	padding-top: 30px;
+    }
+    .banner_description h1 {
+	font-size: 22px;
+	line-height: 27px;
+    }
+    .banner_description .bnr_txt {
+	margin-top: 5px;
+    }
+     .venue-outr .spec-txt ul li {
+	padding: 0 14px;
+}
+       .get-app .cmn_hdr h2 {
+	font-size: 22px;
+}
+    
 }
 
+
 @media (max-width:568px){
-  
+  .spec-txt p {
+	min-height: 62px;
+    }
+    .spec-txt {
+	padding: 15px 8px 10px;
+    }
+    .spec-btm-text {
+	font-size: 58px;
+	line-height: 54px;
+	margin-top: -13px;
+    }
+       .get-app .cmn_hdr h2 {
+	font-size: 20px;
+}
+    .get-app {
+	padding: 30px 10px 20px 25px;
+}
+    .get-app:last-child {
+	padding: 30px 0 20px 20px;
+}
 }
 
 @media (max-width:484px){
-  
+  .banner_description h1 {
+	font-size: 18px;
+	line-height: 22px;
+    }
+    .commn_btn {
+	margin-top: 10px;
+	padding: 5px 16px;
+    }
+    .commn_btn {
+	font-size: 13px;
+    }
+    .cmn_hdr h2 {
+	font-size: 18px;
+	padding-bottom: 7px;
+	line-height: 24px;
+    }
+    .cmn_hdr.long-after h4 {
+	font-size: 13px;
+	padding-bottom: 6px;
+    }
+    .cmn_p.center_p p {
+	padding: 0px 30px;
+    }
+    .spec-btm-text {
+	font-size: 51px;
+	line-height: 58px;
+	margin-top: -17px;
+}
+    .spec-txt h3 {
+	margin: 0 0 10px;
+    }
+    .comm-ftr {
+	padding: 15px 0 10px;
+    }
+    .ftr-hdr ul li {
+	padding: 0px 12px;
+    }
+    .ftr-hdr h3 {
+	margin: 0 0 13px;
+    }
+    .innr-ftr {
+	padding: 5px 0;
+    }
+    .event-sec {
+	padding: 25px 0;
+}
+    .cmn_hdr.small-after h4::after {
+	height: 25px;
+    }
+    .cmn_hdr.small-after h4 {
+	padding-top: 30px;
+}
+    .venues-sec {
+	padding: 10px 0 30px;
+    }
+    .spec-des p {
+	font-size: 13px;
+	line-height: 22px;
+	margin-bottom: 20px;
+    }
+    .get-app .cmn_hdr h2 {
+	font-size: 17px;
+}
+    .app-bx-our {
+	margin-top: 15px;
+}
+    .app-info h3 {
+	font-size: 12px;
+}
+    .app-cm-bx {
+	width: 196px;
+	padding: 5px;
+}
+    .app-bx-innr::after {
+	width: 86px;
+	height: 56px;
+}
+    .app-bx-innr {
+	margin-bottom: 30px;
+}
+    /*07-05-19*/
+    .ques-ans h3 {
+	font-size: 13px;
+}
+    .ques-ans {
+	padding: 10px 5px 10px 10px;
+}
+    .ques-no {
+	width: 24px;
+}
+    .ques-no h5 {
+	font-size: 14px;
+}
 }
 
+@media (max-width:420px) {
+	.player_slider .mid_txt p {
+	font-size: 12px;
+	line-height: 15px;
+    }
+    .slick-prev, .slick-next {
+	width: 28px;
+	height: 28px;
+    }
+    .slidr_outr {
+	padding: 0px 40px;
+    }
+    .spec-btm-text {
+        font-size: 43px;
+        line-height: 56px;
+    }
+    .cmn_p p {
+	font-size: 13px;
+	line-height: 20px;
+    }
+    .cmn_p.center_p p {
+	padding: 0px 20px;
+    }
+    .slick-prev {
+	left: -43px;
+}
+    .slick-next {
+	right: -43px;
+}
+    .venues-sec {
+	padding: 5px 0 20px;
+    }
+    .spec-txt p {
+	font-size: 11px;
+    }
+    .cmn_hdr h4 {
+	font-size: 11PX;
+	padding-bottom: 5px;
+}
+    .event-list-outr h4 {
+
+        font-size: 14px;
+    }
+    .spec-des p {
+	font-size: 12.5px;
+	line-height: 20px;
+	margin-bottom: 10px;
+    }
+    .ftr-hdr h3 {
+	font-size: 15px;
+    }
+    .bottom-ftr {
+	padding: 15px 0;
+    }
+    .copy-right p, .copy-right p a {
+	font-size: 12px;
+    }
+    .banner_description h1 {
+	font-size: 15px;
+	line-height: 20px;
+    }
+    .bnr_txt p {
+	font-size: 13px;
+	line-height: 15px;
+    }
+    .cmn_hdr.long-after h4::after {
+	top: -58px;
+	width: 42px;
+	height: 51px;
+    }
+    .get-app {
+	padding: 30px 10px 20px 25px;
+	width: 100%;
+}
+    .outr-app{
+        display: block;
+    }
+    .app-bx-innr::after {
+	width: 86px;
+	height: 60px;
+}
+    .get-app:last-child {
+	padding: 30px 0 30px 20px;
+}
+    .ques-pic{
+        display: none;
+    }
+    .slick-prev, .slick-next {
+	font-size: 18px;
+    }
+}
 @media (max-width:384px) {
+	.logo-sec {
+	width: 100px;
+}
+    .hdr-btn .login {
+	margin-right: 7px;
+}
+    header .hdr_pad {
+	padding: 8px 00px;
+}
+    .hdr-btn {
 	
+	top: -29px;
+	right: 50px;
+    }
+   .navbar-toggler {
+	right: 12px;
+	top: -31px;
+}
+    .navbar-toggler{
+        padding:0px;
+    }
+    .cmn_hdr.long-after h4::after{
+        display: none;
+    }
+    .banner_description {
+	top: 60%;
+}
+    .players .players_box h3 {
+	font-size: 11px;
+}
+    .slidr_outr {
+	padding: 0px 29px;
+    }
+    .cmn_hdr.small-after h4::after{
+        display: none;
+    }
+    .cmn_hdr.small-after h4 {
+	padding-top: 15px;
+}
+    .spec-btm-text {
+	font-size: 31px;
+	line-height: 17px;
+}
+    .ques-ans h3 {
+	font-size: 12px;
+}
+    .ques-label {
+	font-size: 11px;
+}
+    .get-app {
+	padding: 20px 10px 10px 25px;
+	width: 100%;
+}
+    .get-app:last-child {
+	padding: 20px 0 30px 20px;
+}
+    .spe-evt-outr{
+        padding-bottom: 15px;
+    }
+    .ftr-hdr ul li {
+	padding: 0px 7px;
+}
+    .innr-special-pic{
+        display: block;
+    }
+    .special-pic-bx{
+        margin-bottom: 10px;
+    }
+    .spec-txt p {
+	min-height: 0;
+}
+    .venue-bottom {
+	padding: 15px 0px 0px;
+}
+    footer::before {
+	top: -30px;
+	width: 64px;
+	height: 65px;
+}
+    .time h5 {
+	font-size: 13px;
+}
+    .time::after, .time {
+	width: 119px;
+	height: 28px;
+}
+    .venue-outr {
+	padding: 0px 23px;
+}
+    /*Temp*/
+    .player_slider .side_img {
+	display: none;
+}
+    
+    /*07-05-19*/
+    .banner_description {
+	top: 64%;
+}
+    .navbar-toggler{
+        font-size: 18px;
+        top: -30px;
+    }
+
+    ul.navbar-nav li a {
+        font-size: 14px;
+    }
+    /*07-05-19*/
+    .special-pic-bx {
+    margin-right: 0;
 }
 
 @media (max-width:320px) {	
-	
+	.players .players_box h3 {
+	padding: 6px 5px;
+	font-size: 10px;
+	line-height: 16px;
+}
 }
 
 

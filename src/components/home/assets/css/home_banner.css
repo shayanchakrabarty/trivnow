@@ -1,0 +1,49 @@
+
+/******************************Banner Sec Start********************************/
+/**Banner sec**/
+.bnr_ing{
+    width:100%;
+}
+.bnr_ing img {
+    width: 100%;
+}
+.banner_content{
+    position: relative;
+}
+.banner_description{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	width: 100%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.banner_description h1{
+        color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 72px;
+}
+.banner_description span{
+    color:#27a3ce;
+    font-weight: 700;
+}
+.banner_description .bnr_txt{
+    margin-top: 20px;
+}
+.bnr_txt p{
+    color:#dccbe8;
+    font-size:20px;
+    line-height: 30px;
+}
+.banner_description h1{
+    font-weight:600;
+}
+.banner_description span{
+    font-weight: 700;
+}
+
+/**End**/
